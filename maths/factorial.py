@@ -25,20 +25,19 @@ def factorial(number: int) -> int:
     """
     if number != int(number):
         raise ValueError("factorial() only accepts integral values")
-        
+
     if number < 0:
         raise ValueError("factorial() not defined for negative values")
     value = 1
-    
+
     for i in range(1, number + 1):
         value *= i
     return value
 
 
 def factorial_recursive(number: int) -> int:
-    
     """
-    
+
     Calculate the factorial of a positive integer
     https://en.wikipedia.org/wiki/Factorial
 
@@ -53,12 +52,12 @@ def factorial_recursive(number: int) -> int:
     Traceback (most recent call last):
         ...
     ValueError: factorial() not defined for negative values
-    
+
     """
-    
+
     if not isinstance(number, int):
         raise ValueError("factorial() only accepts integral values")
-        
+
     if number < 0:
         raise ValueError("factorial() not defined for negative values")
     return 1 if number in {0, 1} else number * factorial_recursive(number - 1)
