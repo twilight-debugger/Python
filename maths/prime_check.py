@@ -44,7 +44,7 @@ def is_prime(number: int) -> bool:
     Traceback (most recent call last):
         ...
     ValueError: is_prime() only accepts positive integers
-    
+
     """
 
     # precondition
