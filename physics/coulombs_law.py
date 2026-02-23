@@ -1,17 +1,13 @@
 """
-Coulomb's law states that the magnitude of the electrostatic force of attraction
-or repulsion between two point charges is directly proportional to the product
-of the magnitudes of charges and inversely proportional to the square of the
-distance between them.
+The force of attraction between two charges at a distance r from their centre points.
 
 F = k * q1 * q2 / r^2
 
-k is Coulomb's constant and equals 1/(4π*ε0)
-q1 is charge of first body (C)
-q2 is charge of second body (C)
-r is distance between two charged bodies (m)
+Where, k = Coulomb's constant [1/(4π*ε0)]
+       q1 = charge of first body (C)
+       q2 = charge of second body (C)
+       r = distance between two charged bodies (m)
 
-Reference: https://en.wikipedia.org/wiki/Coulomb%27s_law
 """
 
 
